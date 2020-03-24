@@ -1,0 +1,420 @@
+/* Importing font from the google */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
+
+/* General styling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.line-1 {
+  display: inline-block;
+  background-color: #00a8ff;
+  width: 22px;
+  height: 5px;
+}
+.line-2 {
+  display: inline-block;
+  background-color: #9c88ff;
+  width: 8px;
+  height: 5px;
+}
+.line-3 {
+  display: inline-block;
+  background-color: #fbc531;
+  width: 8px;
+  height: 5px;
+}
+.line-4 {
+  display: inline-block;
+  background-color: #4cd137;
+  width: 8px;
+  height: 5px;
+}
+.line-5 {
+  display: inline-block;
+  background-color: #487eb0;
+  width: 22px;
+  height: 5px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Navbar styling */
+
+.navbar {
+  background: none !important;
+  border-bottom: 1px solid #6f42c1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#wrapper {
+  height: 100vh !important;
+  width: 100%;
+  background: url("./../images/bg-illustration.png");
+  background-size: 100% 100%;
+}
+.nav-link {
+  padding-right: 2rem !important;
+}
+
+/* HOMEPAGE STYLING - MAIN BODY */
+#main-body {
+  margin-top: 5rem;
+}
+#main-body h1 {
+  font-size: 30px;
+  color: whitesmoke;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+#main-body p {
+  color: whitesmoke;
+}
+.btn-new {
+  display: inline-block;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: #42d897;
+  color: whitesmoke;
+  border-radius: 20px;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+.btn-new:hover {
+  color: white;
+  background: #3dc98c;
+}
+.btn-new-2 {
+  display: block;
+  width: 160px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  background-image: linear-gradient(
+    to right,
+    #21d397 0%,
+    #7450fe 51%,
+    #21d397 100%
+  );
+  -webkit-transition: all 500ms;
+  transition: all 0.2s;
+  text-decoration: none !important;
+}
+
+.btn-new-2:hover {
+  color: white;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* HOME PAGE - INFO SECTION STYLING */
+#info {
+  margin-top: 10rem;
+  background: url("http://www.webtechnologybd.com/template/Apricot/img/svg/bg_hero.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+#info h2 {
+  font-weight: 600;
+  color: #13287e;
+}
+.card-header {
+  background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+  color: whitesmoke !important;
+  border-radius: 50px !important;
+  margin-bottom: 1rem;
+}
+.card-header a {
+  color: whitesmoke !important;
+}
+.card {
+  border: none !important;
+  background: none;
+}
+.card-body {
+  color: #888;
+}
+#accordion {
+  margin-top: 5rem;
+}
+
+/* HOME PAGE - HACKED TODAY SECTION STYLING */
+
+#hacked-today {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+#hacked-today h2 {
+  margin-bottom: 5rem;
+  font-weight: 600;
+}
+.single-member {
+  border-radius: 5px;
+  border-bottom: 3px solid #46b6cf;
+  height: 200px;
+  padding: 0.5rem 0 15rem 0;
+  margin-bottom: 1.5rem;
+  background: #f3f7fa;
+}
+
+.single-member img {
+  display: block;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  margin: 0.5rem auto 0 auto !important;
+}
+.single-member p {
+  margin-top: 0.5rem !important;
+  padding: 0 !important;
+  text-align: center;
+  font-weight: bold;
+  color: #13287e;
+}
+
+/* FOOTER STYLING */
+footer {
+  background-image: linear-gradient(
+    to right,
+    #453188 0%,
+    rgb(59, 57, 172) 100%
+  );
+  background-size: cover;
+  min-height: 300px;
+  padding: 2rem 0;
+}
+
+footer a,
+footer p {
+  color: #fff;
+}
+footer a:hover {
+  color: #f6f7f8;
+  text-decoration: none;
+}
+footer p a {
+  text-decoration: underline;
+}
+.social-box a i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid;
+  text-align: center;
+  margin-right: 0.8rem;
+  font-size: 1.3rem;
+  transition: all 0.2s;
+}
+
+.social-box a i:hover {
+  background: rgb(41, 30, 85);
+}
+#scroll-to-top {
+  border-radius: 100%;
+  border: 1px solid;
+  width: 50px;
+  display: block;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
+  transition: all 0.2s;
+}
+#scroll-to-top:hover {
+  background: rgb(41, 30, 85);
+}
+
+/* HACK FACEBOOK PAGE STYLING */
+
+#wrapper-other-pages {
+  height: 300px !important;
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(72, 52, 212, 0.9),
+    rgba(52, 31, 151, 0.9)
+  );
+}
+#wrapper-other-pages h2 {
+  color: whitesmoke;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+#wrapper-other-pages p {
+  margin-top: 2rem;
+  color: whitesmoke;
+}
+#wrapper-other-pages a {
+  color: whitesmoke;
+}
+#wrapper-other-pages i {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#other-pages-section {
+  background: url("./../images/ring-bg.png");
+  padding: 3rem 0 3rem 0;
+}
+#other-pages-section h2 {
+  font-weight: 600;
+  color: #13287e;
+}
+#other-pages-section h3 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 1rem;
+  color: #13287e;
+}
+#other-pages-section p {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #888;
+}
+
+/* PROGRESS PAGE STYLING */
+.progress-box {
+  background-color: #edf5fd;
+  padding: 2rem;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+}
+.progress-box h5 {
+  font-weight: 600;
+}
+.progress {
+  height: 2rem;
+}
+.progress-bar {
+  background: linear-gradient(
+    to top,
+    rgba(72, 52, 212, 0.9),
+    rgba(52, 31, 151, 0.9)
+  );
+}
+
+.user-img {
+  width: 180px;
+  border-radius: 5px;
+}
+
+/* TERMS OF USE PAGE STYLING */
+
+.overflow-terms {
+  height: 700px;
+  overflow-y: scroll;
+}
+.overflow-terms::-webkit-scrollbar-track {
+  padding: 2px 0;
+  background-color: #efefef;
+  border-radius: 0px 5px 5px 0px;
+}
+.overflow-terms::-webkit-scrollbar {
+  width: 8px;
+}
+.overflow-terms::-webkit-scrollbar-thumb {
+  border-radius: 60px;
+  background-color: #3c38a9;
+}
+.details-wrapper {
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #edf5fd;
+}
+.details-box {
+  padding-left: 2rem;
+}
+
+/* HACK FACEBOOK PAGE STYLING */
+
+.blue-box {
+  color: #888;
+  text-align: center;
+  background-color: #edf5fd;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+.blue-box p {
+  color: #fff;
+}
+.input-field {
+  height: 48px !important;
+}
+
+#tutorial {
+  margin-top: 8rem;
+}
+
+
+/*
+--------------MEDIA QUERIES FOR RESOPSIVENESS
+*/
+@media screen and (max-width: 991px){
+  #wrapper{
+    background-size: cover;
+  }
+  #main-body .btn-new{
+    display: inline-block;
+    margin-left: 0!important;
+  }
+}
+@media screen and (max-width: 767px){
+  body{
+    font-size: .9rem;
+  }
+  #wrapper{
+    background-size: cover;
+  }
+  #main-body .btn-new{
+    margin-left: 0.5rem!important;
+  }
+  #main-body h1{
+    margin-top: 0;
+  }
+  #info{
+    margin-top: 23rem;
+  }
+}
+@media screen and (max-width: 477px){
+  .input-sm-block{
+    width: 100%;
+    margin-top: 1rem;
+    display: block!important;
+    text-align: center;
+  }
+  .input-sm-block .btn-new-2{
+    display: block;
+    margin: auto;
+    border-radius: 50px!important;
+  }
+}
+
+@media screen and (max-width: 370px){
+  h2{
+    font-size: 1.8rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  body{
+    font-size: .8rem;
+  }
+  #main-body .btn-new{
+    width: 70%;
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+    margin-left: 0!important;
+  }
+}
